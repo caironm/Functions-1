@@ -12,10 +12,10 @@
 
 /*
 Update on problem:
-    assume the gpa's are in a array
-    $_POST['gpa']
+    1. assume the gpa's are in a array $_POST['gpa']
     so $_POST['gpa'][0] has 1st sem gpa.. etc.,
-
+    2. dept var in $_POST['dept']
+    3. n of sem in $_POST['sem']
 */
 
 // Write your php fucntion below
