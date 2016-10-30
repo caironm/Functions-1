@@ -4,7 +4,7 @@
     Don't Remove this comment!. 
     
     Anna University CGPA Calc from GPA's
-    Input: n sem GPAs, department in short code (eg ECE)
+    Input: GPA of n sem, department in short code (eg ECE)
     Output: A float num of cgpa with 4 values after decimal
     Condition: Must be secure Your can create as many as auxillary functions you need. 
   
