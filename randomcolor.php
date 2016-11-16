@@ -11,6 +11,14 @@
 */
 
  //Write your php function below.
+function rcp() {
+    return str_pad( dechex( mt_rand( 0, 255 ) ), 2, '0', STR_PAD_LEFT);
+}
 
+function rc() {
+    return rcp() . rcp() . rcp();
+}
+
+echo "#".rc();
 
 ?>
