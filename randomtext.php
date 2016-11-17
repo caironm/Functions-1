@@ -6,19 +6,17 @@
   Input Params: n - length of output string (Default: 20)
   Conditions: Output String Must Only Contain a-z, A-Z, 0-9. No Special Chars.
 */
-<?php
-function RandomString()
+function RandomString() //length parameter not passed
 {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $randstring = '';
     for ($i = 0; $i < 20; $i++) {
-        $randstring = $characters[rand(0, strlen($characters))];
+        $randstring = $characters[rand(0, strlen($characters))]; //$randstring is assigned a single char everytime.
     }
     return $randstring;
 }
 RandomString();
-echo $randstring;
-
+echo $randstring; //this variable is not available out the function.
 
 
 ?>
